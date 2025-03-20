@@ -1,0 +1,14 @@
+file_format: "1"
+id: zireael
+name: Zireael
+url: https://github.com/Mposiblee/Zireael
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+  - ble
+siblings:
+  - zireael_left
+  - zireael_right

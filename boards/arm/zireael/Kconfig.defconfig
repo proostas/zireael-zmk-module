@@ -1,20 +1,20 @@
 # Copyright (c) 2021 Rafael Yumagulov
 # SPDX-License-Identifier: MIT
 
-if BOARD_DAO_LEFT
+if BOARD_ZIREAEL_LEFT
 
 	config ZMK_KEYBOARD_NAME
-	default "Dao"
+	default "Zireael"
 
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
-endif # BOARD_DAO_LEFT
+endif # BOARD_ZIREAEL_LEFT
 
-if BOARD_DAO_LEFT || BOARD_DAO_RIGHT
+if BOARD_ZIREAEL_LEFT || BOARD_ZIREAEL_RIGHT
 
 config BOARD
-	default "dao"
+	default "zireael"
 
 config ZMK_SPLIT
 	default y
@@ -36,4 +36,4 @@ config USB_DEVICE_STACK
 
 endif # USB
 
-endif # BOARD_DAO_LEFT || BOARD_DAO_RIGHT
+endif # BOARD_ZIREAEL_LEFT || BOARD_ZIREAEL_RIGHT
